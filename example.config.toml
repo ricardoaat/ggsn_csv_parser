@@ -1,0 +1,34 @@
+[Process]
+Backup = false 
+
+[Path]
+LogPath = "log/"
+ResultReport = "reports/"
+CsvResources = "output/done/"
+SFTPDest = "/backup/ggsn_CDRs/"
+
+[Notif]
+Recipients = ["leemail@whatever.com", "leothermail@lehost.com]
+FromAddr = "noreply@source.com"
+
+[SFTP]
+Host = "lehost"
+Port = "22"
+User = "user"
+Pass = "pass"
+
+[MVNOS.leone]
+Ranges = [
+    [732100000000000, 732199999999999],
+    [732110000000000, 732119999999999],
+]
+
+[MVNOS.letwo]
+Ranges = [
+    [732120000000000, 732129999999999]
+]
+
+[MVNOS.lethree]
+Ranges = [
+    [732130000000000, 732139999999999]
+]
