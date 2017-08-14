@@ -6,8 +6,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/ricardoaat/ggsn_parsed_csv_reporter/config"
-	"github.com/ricardoaat/ggsn_parsed_csv_reporter/reporter"
+	"github.com/ricardoaat/ggsn_csv_parser/config"
+	"github.com/ricardoaat/ggsn_csv_parser/reporter"
 	"github.com/rifflock/lfshook"
 	log "github.com/sirupsen/logrus"
 	prefixed "github.com/x-cray/logrus-prefixed-formatter"

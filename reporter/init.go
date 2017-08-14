@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/ricardoaat/ggsn_parsed_csv_reporter/config"
-	"github.com/ricardoaat/ggsn_parsed_csv_reporter/util"
+	"github.com/ricardoaat/ggsn_csv_parser/config"
+	"github.com/ricardoaat/ggsn_csv_parser/util"
 	log "github.com/sirupsen/logrus"
 )
 

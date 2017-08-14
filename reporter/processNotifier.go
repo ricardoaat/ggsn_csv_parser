@@ -3,7 +3,7 @@ package reporter
 import (
 	"fmt"
 
-	"github.com/ricardoaat/ggsn_parsed_csv_reporter/config"
+	"github.com/ricardoaat/ggsn_csv_parser/config"
 
 	log "github.com/sirupsen/logrus"
 	"gopkg.in/gomail.v2"
